@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+:root {
+    --bodyWidth: 100vw;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: var(--bodyWidth);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    width: var(--bodyWidth);
+}
+
+.container_1 {
+    background-position: center;
+    background-size: cover;
+    width: calc(var(--bodyWidth)/2);
+    height: 100%;
+    object-fit: contain;
+}
+
+.container_2 {
+    background-color: rgb(53, 53, 53);
+}
+
+.top_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 0 0 180px;
+}
+
+.top_1>.photo_studio_name {
+    color: white;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+.top_1>.constant {
+    color: white;
+    font-size: 12px;
+    margin: 25px 0 0 -60px;
+}
+
+.container_1_top>.top_line_1 {
+    width: 35vw;
+    height: 1px;
+    background-color: white;
+    margin: 5px -5px 0 180px;
+    border-radius: 50px;
+}
+
+.container_1_top>.bottom>.class_explore {
+    font-size: 60px;
+    color: white;
+}
+
+.container_1_top>.bottom {
+    margin: 420px 0 0 180px;
+}
+
+.container_1_top>.bottom_line {
+    padding: 0;
+    margin: -15px 0 0 180px;
+    background-color: white;
+    border-radius: 50px;
+    height: 1px;
+}
+
+.top_2,
+.container_2_top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.top_3,
+.top_4,
+.top_5 {
+    margin: 10px 0 0 10px;
+}
+
+.top_3>.class_explore_2,
+.top_5>.class_contact {
+    color: white;
+    font-size: 16px;
+}
+
+.top_3>.top_line_2,
+.top_5>.top_line_3 {
+    background-color: white;
+    width: 7vw;
+    height: 1px;
+    border-radius: 50px;
+    margin: 6px 0 0 -5px;
+    padding: 0;
+}
+
+.top_4>.class_store {
+    color: grey;
+    font-size: 16px;
+    margin: 10px 0 0 -60px;
+}
+
+.my_logo>video {
+    margin: 40px 0 20px 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.images_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+}
+
+.container_2>.images_container>.img_container>img {
+    width: 210px;
+    height: 280px;
+    object-fit: contain;
+    margin: 0 0 0 -70px;
+}
+
+.last>.top_line_4 {
+    background-color: white;
+    width: 35vw;
+    height: 1px;
+    border-radius: 50px;
+    margin: 63px 0 0 10px;
+    padding: 0;
+}
+
+.last>.contacting_us {
+    margin: -15px 0 0 500px;
+}
+
+.image_button {
+    border: none;
+    margin: 0 0 0 60px;
+}
